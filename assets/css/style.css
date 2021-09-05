@@ -94,3 +94,45 @@ footer a {
     font-weight: 700;
     font-family: 'Inconsolata', monospace;
 }
+
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+    main img {
+        max-width: 320px;
+        height: auto;
+    }
+
+    .content {
+        max-width: 300px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .content .button {
+        height: 40px;
+        margin-top: 36px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    footer p {
+        max-width: 300px;
+    }
+
+    footer a {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
