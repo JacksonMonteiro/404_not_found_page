@@ -15,7 +15,7 @@
 
 
 <h4 align="center" >
-⚠️ Not Found Page - On development ⚠️
+✅ Not Found Page - Completed ✅ 
 </h4>
 
 <h2 id="tech">Used technologies</h2>
